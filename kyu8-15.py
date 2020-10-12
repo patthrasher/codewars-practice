@@ -1,3 +1,5 @@
+# It takes two bullets to defeat one dragon, will you have enough bullets?
+
 def hero(bullets, dragons) :
     # return bullets / dragons >= 2
 
