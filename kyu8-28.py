@@ -7,7 +7,7 @@ def areYouPlayingBanjo(name) :
         output = ' plays banjo'
     else :
         output = ' does not play banjo'
-        
+
     return name + output
 
 
@@ -15,3 +15,5 @@ def areYouPlayingBanjo(name) :
 print(areYouPlayingBanjo('Pat'))
 print(areYouPlayingBanjo('Rat'))
 print(areYouPlayingBanjo('rat'))
+
+print(areYouPlayingBanjo('new case!'))
