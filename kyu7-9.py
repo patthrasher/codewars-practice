@@ -23,9 +23,7 @@ def solve(a,b) :
                 y = b.find(each)
                 return a[x + 1:] == b[y:]
 
-
     return False
-
 
 print(solve("code*s","codewars"))
 print(solve("codewar*s","codewars"))
