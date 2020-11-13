@@ -46,7 +46,3 @@ def balanced_num(number) :
 
 print(balanced_num(19519))
 print(balanced_num(123312))
-<<<<<<< HEAD
-=======
-print(balanced_num(133312))
->>>>>>> practice-branch
