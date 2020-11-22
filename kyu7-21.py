@@ -24,7 +24,7 @@ def max_product(lst, n) :
     #
     # return t
 
-    third solution, works and passed
+    # third solution, works and passed
     s = sorted(lst)
     total = 1
     for each in s[-n:] :
