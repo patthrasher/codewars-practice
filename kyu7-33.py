@@ -1,8 +1,12 @@
 def valid_spacing(s) :
-    if s.startswith(' ') or s.endswith(' ') or '  ' in s :
-        return False
+    # first solution
+    # if s.startswith(' ') or s.endswith(' ') or '  ' in s :
+    #     return False
+    #
+    # return True
 
-    return True
+    # one line solution
+    return False if s.startswith(' ') or s.endswith(' ') or '  ' in s else True
 
 
 print(valid_spacing('Hello world'))
