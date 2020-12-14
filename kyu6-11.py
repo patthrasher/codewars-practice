@@ -12,9 +12,13 @@ def solution(s) :
     # return l
 
     # regex solution
+    # import re
+    # s = s + '_' if len(s) % 2 == 1 else s
+    # return re.findall('..', s)
+
+    # don't even need the first line, since regex findall will only return pairs of two
     import re
-    s = s + '_' if len(s) % 2 == 1 else s
-    return re.findall('..', s)
+    return re.findall('..', s + '_')
 
 print(solution("asdfadsf")) # ['as', 'df', 'ad', 'sf']
 print(solution("asdfads")) # ['as', 'df', 'ad', 's_']
