@@ -1,12 +1,4 @@
 def word_to_bin(word) :
-    l = []
-    for each in word :
-        x = ord(each)
-        y = bin(x)[2:]
-        str = '0' + y
-        l.append(str)
-
-    return l
-
+    return ['0' + bin(ord(i))[2:] for i in word]
 
 print(word_to_bin('man'))
