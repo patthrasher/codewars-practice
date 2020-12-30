@@ -6,9 +6,11 @@ def alternate_case(s) :
         elif each.islower() :
             st += each.upper()
         else :
-            st += ' '
+            st += each
 
     return st
+
+    # return s.swapcase()
 
 
 print(alternate_case('Hello World'))
